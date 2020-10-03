@@ -6,35 +6,37 @@
         <link rel="stylesheet" href="estilos.css">
         <title>Matcha</title>
     </head>
-    <body>
-        <h1>Este es el nuevo cambio de mi projecto!</h1>
-        <p>
-            Este es mi parrafo de la clase de web fundamentals 20-08
-        </p>
-        <h3>Languages</h3>
-        <div>
-            <ul>
-                <li>Javascript</li>
-                <li>Java</li>
-                <li>Python</li>
-                <li>C++</li>
-            </ul>
-        </div>
-        <form action="/user" method="GET" >
-            <label for="user">User name</label>
-            <input type="text" name="user"/>
-            <br>
-            <label for="password">Password</label>
-            <input type="password" name="password"/>
-            <br>
-            <button>ENVIAR</button>
-        </form>
-        <div id="mi-div">
-            Este es mi div
-        </div>
-        <p>
-            Este es mi parrafo de la clase de web fundamentals 20-08
-        </p>
-        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" alt="Capterra image" width="200">
+    <body> 
+        <header class="header">
+            <!-- Logo con link a la página principal -->
+            <a  class="logo">
+                <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"/>
+            </a>
+            <!-- Menú de navegación -->
+            <nav  class="navbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Contenedor de acciones de usuario -->
+            <div  class="actions">
+                <a href="">Sign In</a>
+                <button>Start free trial</button>
+            </div>
+        </header>
     </body>
 </html>
